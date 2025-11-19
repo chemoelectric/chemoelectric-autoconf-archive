@@ -1,0 +1,5 @@
+= Chemoelectric’s Autoconf Archive
+
+FIXME:: A README will be written some day. People who are familiar
+        with GNU Autoconf might already know what to do with this
+        stuff.
