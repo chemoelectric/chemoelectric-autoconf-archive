@@ -1,5 +1,27 @@
 = Chemoelectric’s Autoconf Archive
 
-FIXME:: A README will be written some day. People who are familiar
-        with GNU Autoconf might already know what to do with this
-        stuff.
+This is a collection of freely reusable macros for GNU Autoconf.
+
+Some of the macros will depend on the GNU Autoconf Archive. See
+https://www.gnu.org/software/autoconf-archive/
+
+To learn about GNU Autoconf itself, see
+https://www.gnu.org/software/autoconf/
+
+***
+
+There are often misunderstandings about GNU Autoconf, such as that it
+has a direct relationship with makefiles. GNU Autoconf is not a
+special tool for configuring makefiles. I quote from
+https://www.gnu.org/software/autoconf/ (2025-11-20):
+[.excerpt]
+----
+Autoconf is an extensible package of M4 macros that produce shell
+scripts to automatically configure software source code packages.
+----
+The shell scripts can configure anything the programmer wishes. I have
+used them to configure, for instance, Nix flakes.
+
+This archive _does_, however, include macros _for use along with GNU
+Automake_ (https://www.gnu.org/software/automake/), to configure
+makefiles for GNU Make (https://www.gnu.org/software/make/).
