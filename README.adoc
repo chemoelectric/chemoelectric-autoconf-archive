@@ -25,3 +25,14 @@ used them to configure, for instance, Nix flakes.
 This archive _does_, however, include macros _for use along with GNU
 Automake_ (https://www.gnu.org/software/automake/), to configure
 makefiles for GNU Make (https://www.gnu.org/software/make/).
+
+***
+
+M4 is of course a difficult language, even for a programmable
+macroprocessor. This is the chief impediment to effective use of
+Autoconf. Nevertheless, ‘configurable make’ alternatives are not
+really alternatives. They solve less general problems. Thus,
+inevitably, for creative individuals they lead to frustrations.
+
+I therefore encourage people to learn how to use GNU Autoconf, and to
+use it.
