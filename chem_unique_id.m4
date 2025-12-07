@@ -5,7 +5,7 @@
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
 
-# serial 1
+# serial 2
 
 # chem_unique_id([CHEM_UNIQUE_ID([VAR])
 # -------------------------------------
@@ -57,7 +57,7 @@ AC_CACHE_CHECK([for shell code to create a unique identifier without spaces or n
          chem_cv_unique_id='printf "%04x%s" ${RANDOM} `date +%Y%j%H%M%S`'
          AC_MSG_WARN([])
          AC_MSG_WARN([])
-         AC_MSG_WARN([No good unique-identifier method found. Using \`\@S|@{RANDOM}' and \`date'.])
+         AC_MSG_WARN([No good unique-identifier method found. Using "\@S|@{RANDOM}" and "date".])
          AC_MSG_WARN([])
          AC_MSG_WARN([])
      fi
